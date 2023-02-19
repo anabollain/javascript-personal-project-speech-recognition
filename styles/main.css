@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+
+.header{
+    height: 10vh;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.main{
+    height: 90vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 200px;
+}
+
+.speech{
+    width: 400px;
+    min-height: 400px;
+    height: fit-content;
+    padding: 30px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.paragraph:first-letter{
+    text-transform: uppercase;
+}
